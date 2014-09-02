@@ -5,13 +5,13 @@ html {
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-  background-color: black;
+  background-color: #FFFFCC
   font-size: 15px;
   font-size: 0.9375rem;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: #BBB8B8;
+  color: #555;
   padding: 0;
 }
 .topspace {
@@ -52,7 +52,7 @@ h6,
 .h6 {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #C4C4C4;
+  color: #333333;
 }
 h1 {
   font-size: 40px;
@@ -141,7 +141,7 @@ a:hover {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
   font-size: 3.0625rem;
-  color: #FFFFFF;
+  color: #000000;
 }
 #head .title a {
   text-decoration: none;
@@ -152,7 +152,7 @@ a:hover {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #FFFFFF;
+  color: #000000;
   margin: 5px 0 0;
   font-family: KGManhattanScript, Helvetica, Arial, sans-serif;
 }
