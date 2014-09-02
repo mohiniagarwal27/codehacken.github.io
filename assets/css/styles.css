@@ -103,7 +103,7 @@ a:hover {
 
 @font-face {
 	font-family: 'KGManhattanScript';
-	src: url('file:KGManhattanScript.ttf') format('truetype');
+	src: url('https://github.com/codehacken/codehacken.github.io/blob/master/assets/css/KGManhattanScript.ttf') format('truetype');
 }
 
 @font-face {
