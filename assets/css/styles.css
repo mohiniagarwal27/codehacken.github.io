@@ -103,22 +103,22 @@ a:hover {
 
 @font-face {
 	font-family: 'KGManhattanScript';
-	src: url('https://github.com/codehacken/codehacken.github.io/blob/master/assets/css/KGManhattanScript.ttf') format('truetype');
+	src: url('KGManhattanScript.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'tartare_de_violettes';
-	src: url('file:tartare_de_violettes.ttf') format('truetype');
+	src: url('tartare_de_violettes.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'CFLabelleHeleneP';
-	src: url('file:CFLabelleHeleneP.ttf') format('truetype');
+	src: url('CFLabelleHeleneP.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'karl_wright_script';
-	src: url('file:karl_wright_script.ttf') format('truetype');
+	src: url('karl_wright_script.ttf') format('truetype');
 }
 
 
