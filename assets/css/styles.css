@@ -112,15 +112,9 @@ a:hover {
 }
 
 @font-face {
-	font-family: 'CFLabelleHeleneP';
-	src: url('CFLabelleHeleneP.ttf') format('truetype');
+	font-family: 'Marlboro';
+	src: url('Marlboro.ttf') format('truetype');
 }
-
-@font-face {
-	font-family: 'karl_wright_script';
-	src: url('karl_wright_script.ttf') format('truetype');
-}
-
 
 /*********************************************************************
  
@@ -397,7 +391,7 @@ img {
 }
 
 .featured h3 {
-  font-family: tartare_de_violettes, Helvetica, sans-serif;
+  font-family: Marlboro, Helvetica, sans-serif;
   font-size: 24px;
   font-size: 1.25rem;
   text-transform: uppercase;
