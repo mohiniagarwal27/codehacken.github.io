@@ -4,14 +4,17 @@
 /**
  * Main AngularJS Web Application
  */
-var app = angular.module('tutorialWebApp', [
+var app = angular.module('mywebsiteApp', [
     'ngRoute'
 ]);
 
 /**
  * Configure the Routes
  */
-app.config(['$routeProvider', function ($routeProvider) {
+app.config(['$routeProvider', function ($routeProvider, $locationProvider) {
+
+    $locationProvider.html5Mode(true);
+
     $routeProvider
         // Home
         .when("/", {templateUrl: "assets/parts/home.html", controller: "PageCtrl"})
