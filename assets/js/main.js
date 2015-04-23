@@ -11,9 +11,9 @@ var app = angular.module('mywebsiteApp', [
 /**
  * Configure the Routes
  */
-app.config(['$routeProvider', function ($routeProvider, $locationProvider) {
+app.config(['$routeProvider', function ($routeProvider) {
 
-    $locationProvider.html5Mode(true);
+    //$locationProvider.html5Mode(true);
 
     $routeProvider
         // Home
