@@ -21,6 +21,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
         // Pages
         .when("/research", {templateUrl: "assets/parts/research.html", controller: "PageCtrl"})
         .when("/contact", {templateUrl: "assets/parts/contact.html", controller: "PageCtrl"})
+        .when("/jobprofile", {templateUrl: "assets/parts/jobprofile.html", controller: "PageCtrl"})
         .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 
 }]);
