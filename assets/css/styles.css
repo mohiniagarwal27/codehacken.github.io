@@ -142,7 +142,7 @@ a:hover {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
   font-size: 3.0625rem;
-  color: #000000;
+  color: #00000;
 }
 #head .title a {
   text-decoration: none;
@@ -230,7 +230,7 @@ a:hover {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #cccccc;
 }
 .navbar-default .navbar-nav > li > a {
