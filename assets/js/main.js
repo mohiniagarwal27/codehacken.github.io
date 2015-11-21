@@ -45,5 +45,5 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
     // Activates Tooltips for Social Links
     $('.tooltip-social').tooltip({
         selector: "a[data-toggle=tooltip]"
-    })
+    });
 });
