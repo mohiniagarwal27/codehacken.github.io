@@ -1,17 +1,7 @@
-<VirtualHost *:80>
-    ServerName my-app
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} -s [OR]
+    RewriteCond %{REQUEST_FILENAME} -l [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^.*$ - [NC,L]
 
-    DocumentRoot /path/to/app
-
-    <Directory /path/to/app>
-        RewriteEngine on
-
-        # Don't rewrite files or directories
-        RewriteCond %{REQUEST_FILENAME} -f [OR]
-        RewriteCond %{REQUEST_FILENAME} -d
-        RewriteRule ^ - [L]
-
-        # Rewrite everything else to index.html to allow html5 state links
-        RewriteRule ^ index.html [L]
-    </Directory>
-</VirtualHost>
+    RewriteRule ^(.*) /index.html [NC,L]
